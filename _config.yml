@@ -1,0 +1,9 @@
+repository: 4richardchen/4richardchen.github.com
+permalink: /:slug
+theme: jekyll-theme-cayman
+plugins:
+- jekyll-github-metadata
+- jekyll-mentions
+- jekyll-redirect-from
+- jekyll-sitemap
+- jemoji
