@@ -9,5 +9,5 @@ Code sample for recruitment purposes.
 * [Docker, node.js, JavaScript (ES6)](//github.com/4richardchen/meredith-code-challenge) - code test
 * [Docker, PHP, mySQL](//github.com/4richardchen/allthingsmedia) - code tet
 * [WordPress, AWS (EC2), PHP](//github.com/4richardchen/everytown) - code test
-* [Docker, nodeJS (express)](//github.com/4richardchen/gotenna) - code test{% for post in site.posts %}{% unless post.tags contains "article" or post.published == false or post.tags contains 'unanswered' or post.tags contains 'answer' %}
+* [Docker, nodeJS (express)](//github.com/4richardchen/gotenna) - code test
 * [Docker, sh (bash)](//github.com/4richardchen/new-computer/commits/fired) - code
