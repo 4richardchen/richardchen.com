@@ -1,5 +1,5 @@
 repository: 4richardchen/4richardchen.github.com
-permalink: /:slug
+permalink: /:title
 theme: jekyll-theme-cayman
 plugins:
 - jekyll-github-metadata
@@ -7,3 +7,10 @@ plugins:
 - jekyll-redirect-from
 - jekyll-sitemap
 - jemoji
+future: true
+exclude:
+  - README.md
+  - Dockerfile
+  - docker-compose.yml
+  - Gemfile*
+  - .git*
