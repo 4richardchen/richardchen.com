@@ -57,3 +57,6 @@
 [user]
 	name = Richard Chen
 	email = 1322333+4richardchen@users.noreply.github.com
+    signingkey = 46B81F346368CDC8
+[gpg]
+	format = ssh
