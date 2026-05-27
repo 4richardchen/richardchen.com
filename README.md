@@ -14,4 +14,7 @@ open https://docs.github.com/en/authentication/managing-commit-signature-verific
 
 # normal setup
 npm i --no-package-lock && npm run dev
+
+# push (and afterwards, the ssh stays)
+GIT_SSH_COMMAND="ssh -i ~/.ssh/yourfilehere -o IdentitiesOnly=yes" git push
 ```
