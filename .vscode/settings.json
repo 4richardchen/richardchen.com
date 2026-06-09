@@ -1,0 +1,36 @@
+{
+  // formatting
+  "editor.formatOnSave": false,
+  "editor.formatOnPaste": false,
+  "files.trimTrailingWhitespace": false,
+  "files.insertFinalNewline": false,
+  "editor.fontLigatures": false,
+  //"editor.defaultFormatter": "esbenp.prettier-vscode",
+  // non-formatting visuals
+  "editor.minimap.enabled": false,
+  "editor.wordWrap": "off",
+  "workbench.iconTheme": null,
+  "explorer.compactFolders": true,
+  // dev-specific
+  "files.autoSave": "onFocusChange",
+  "editor.linkedEditing": true,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": "active",
+  "editor.stickyScroll.enabled": true,
+  // search, navigation
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/.next": true,
+    "**/.git": true
+  },
+  // autocomplete
+  "editor.quickSuggestions": {
+    "other": "off",
+    "comments": "off",
+    "strings": "off"
+  },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.inlineSuggest.enabled": false,
+  "editor.acceptSuggestionOnEnter": "off"
+}

@@ -23,11 +23,12 @@ export default function Home() {
   return (
     <Layout title="Richard Chen">
       <h1 className="text-3xl font-bold">Richard Chen</h1>
-      <p class="mb-4">To those who got this site by email in the past week, you're receiving this because I enjoyed working with you in particular so I let you know I left the company on my terms and I wrote a guide on <a href="/layoff">how to handle layoffs</a> if you're in the same boat. Thank you for your skill, patience, and good hearted work with me. I always love working between departments on technical challenges. I'll be working for my own independent agency, so message me if you'd like to be alongside.</p>
+      <p class="mb-4">To those received my email, I enjoyed working with you in particular so I let you know I left the company on my terms. If you're in my boat, use my <a href="//github.com/4richardchen/new-computer/blob/fired/README.md">layoff shell script</a> to exit with emotional and cyber surity. Thank you for your skill, patience, and good hearted work with me. I always love working between departments on technical challenges. I'll work for my own independent agency, where the growth and less fearful innovations are, so message me if you'd like to be alongside.</p>
+      <p class="mb-4">Conversely, if you received no such email, ignore.</p>
       <p class="mb-4">
-        I'm also on LinkedIn as <a href="//linkedin.com/in/4richardchen">4richardchen</a> for fun talk about anything (life in NYNJ, tech consulting, irreverent humor, pub trivia, AAPI communities). I'll be so happy to be together again, until then, you take care of yourself and your loved ones.
+        I'm on LinkedIn as <a href="//linkedin.com/in/4richardchen">4richardchen</a> to talk about anything (life in NYNJ, tech consulting, irreverent humor, pub trivia, AAPI communities). I'll be so happy to be together again, until then, you take care of yourself and your loved ones. Note: I keep all content on my own site and never on LinkedIn and eschew other social media.
       </p>
-      <p class="mb-4">Those hiring, <a href="/hire">hire me</a>! Start by contacting me at
+      <p class="mb-4">Those hiring or wanting to contact me,
         {' '}
         {showEmail ? (
           <>
@@ -53,7 +54,7 @@ export default function Home() {
           </button>
         )}
         {'.'}
-        </p>
+      </p>
     </Layout>
   )
 }

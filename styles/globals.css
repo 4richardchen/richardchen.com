@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+@layer base {
 html, body, #__next {
   height: 100%;
 }
@@ -14,4 +15,21 @@ body {
 a {
   @apply text-blue-800;
   @apply underline;
+}
+  /* style `ul` which for some reasons are without styling */
+  ul:not([class]) {
+    @apply list-disc pl-6 my-4;
+  }
+
+  ul:not([class]) li {
+    @apply my-1;
+  }
+
+  ol:not([class]) {
+    @apply list-decimal pl-6 my-4;
+  }
+
+  ol:not([class]) li {
+    @apply my-1;
+  }
 }

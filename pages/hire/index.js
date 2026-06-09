@@ -72,6 +72,8 @@ export default function Home() {
       <ul>
         <li class="mb-4">
           See <a href="//linkedin.com/in/4richardchen">my LinkedIn</a>. It's the same as my resume.
+
+          As for what I actually know myself without AI or cheating, I wrote <a href="learn/">learn about me</a> from scratch, by hand, manually, without AI.
         </li>
       </ul>
 

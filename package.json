@@ -1,6 +1,6 @@
 {
   "name": "richardchen-com",
-  "description": "for employers",
+  "description": "Full stack tech lead in metro NYC",
   "version": "0.1.0",
   "private": true,
   "keywords": ["richard", "chen", "richardchen"],
@@ -8,10 +8,7 @@
   "license": "MIT-CMU",
   "scripts": {
     "dev": "next dev -p 3000",
-    "build": "next build",
-    "start": "next start -p 3000",
-    "twbuild": "tailwindcss -i ./css/input.css -o ./css/style.css",
-    "watch": "tailwindcss -i ./css/input.css -o ./css/style.css --watch"
+    "build": "next build"
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.1.18",
